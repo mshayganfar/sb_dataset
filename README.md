@@ -1,4 +1,4 @@
-Note: The following information are taken from the related project's websites. The sources are provided at the bottom of this readme file.
+Note: The following information are taken from the related dataset project's websites. The sources are provided at the bottom of this readme file.
 
 This repository contains the following three datasets:
 
