@@ -2,9 +2,28 @@ Note: The following information are taken from the related dataset project's web
 
 This repository contains the following three datasets:
 
-1) Stanford40
-2) BOLD5000
-3) 
+1) NTU RGB+D and NTU RGB+D 120
+2) Stanford40
+3) BOLD5000
+
+# NTU RGB+D and NTU RGB+D 120
+
+## General Overview:
+
+"NTU RGB+D" and NTU RGB+D 120" datasets contain 56,880 and 114,480 action samples, respectively. Both datasets include 4 different modalities of data for each sample:
+
++ RGB videos
++ depth map sequences
++ 3D skeletal data
++ infrared (IR) videos
+
+Video samples have been captured by three Microsoft Kinect V2 cameras concurrently. The resolutions of RGB videos are 1920×1080, depth maps and IR videos are all in 512×424, and 3D skeletal data contains the 3D locations of 25 major body joints at each frame.
+
+Paper: NTU RGB+D: A Large Scale Dataset for 3D Human Activity Analysis (https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shahroudy_NTU_RGBD_A_CVPR_2016_paper.pdf)
+
+Paper: NTU RGB+D 120: A Large-Scale Benchmark for 3D Human Activity Understanding (https://arxiv.org/pdf/1905.04757.pdf)
+
+Github account: https://github.com/shahroudy/NTURGB-D
 
 # Stanford40
 
@@ -59,5 +78,6 @@ This large-scale dataset enables novel neural network training and novel explora
 + Term of use for BOLD5000's dataset: https://bold5000-dataset.github.io/website/terms.html
 
 ### Sources: 
++ NTU RGB+D: https://rose1.ntu.edu.sg/dataset/actionRecognition/
 + Stanford40: http://vision.stanford.edu/Datasets/40actions.html
 + BOLD5000: https://bold5000-dataset.github.io/website/
